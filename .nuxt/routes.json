@@ -1,0 +1,43 @@
+[
+  {
+    "path": "/",
+    "component": "/Users/liurunbang/lg-study/ssr-study/realworld-nuxtjs/pages/layout",
+    "children": [
+      {
+        "path": "",
+        "name": "home",
+        "component": "/Users/liurunbang/lg-study/ssr-study/realworld-nuxtjs/pages/home"
+      },
+      {
+        "path": "/login",
+        "name": "login",
+        "component": "/Users/liurunbang/lg-study/ssr-study/realworld-nuxtjs/pages/login"
+      },
+      {
+        "path": "/register",
+        "name": "register",
+        "component": "/Users/liurunbang/lg-study/ssr-study/realworld-nuxtjs/pages/login"
+      },
+      {
+        "path": "/profile/:username",
+        "name": "profile",
+        "component": "/Users/liurunbang/lg-study/ssr-study/realworld-nuxtjs/pages/profile"
+      },
+      {
+        "path": "/settings",
+        "name": "settings",
+        "component": "/Users/liurunbang/lg-study/ssr-study/realworld-nuxtjs/pages/settings"
+      },
+      {
+        "path": "/editor",
+        "name": "editor",
+        "component": "/Users/liurunbang/lg-study/ssr-study/realworld-nuxtjs/pages/editor"
+      },
+      {
+        "path": "/article/:slug",
+        "name": "article",
+        "component": "/Users/liurunbang/lg-study/ssr-study/realworld-nuxtjs/pages/article"
+      }
+    ]
+  }
+]
