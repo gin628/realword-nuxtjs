@@ -24,7 +24,7 @@
       </nuxt-link>
       <span class="date">{{ article.createdAt | dayjs }}</span>
     </div>
-    <template v-if="user.username === article.author.username">
+    <template v-if="user && user.username === article.author.username">
       <button
         class="btn btn-sm btn-outline-secondary"
         @click="
@@ -75,7 +75,6 @@
 <script>
 import { mapState } from "vuex";
 import { delArticle, addFavorite, deleteFavorite } from "@/api/article";
-import { followUser, unfollowUser } from '@/api/profile'
 
 export default {
   name: "ArticleMeta",
